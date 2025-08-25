@@ -17,12 +17,12 @@ services:
       - key: N8N_PROTOCOL
         value: https
       - key: WEBHOOK_URL
-        value: https://n8n-service.onrender.com # Update to your Render URL after deployment
+        value: https://n8n-service.onrender.com
       - key: N8N_BASIC_AUTH_ACTIVE
         value: true
       - key: N8N_BASIC_AUTH_USER
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
-        sync: false # Set manually in Render
+        sync: false
     healthCheckPath: /healthz
     autoDeploy: true
